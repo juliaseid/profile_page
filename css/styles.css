@@ -1,0 +1,56 @@
+a {
+  color: darkslategray;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  margin: 12px;
+  border: 1px, darkslateblue;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 6px;
+  padding: 8px;
+}
+h3 {
+  font-weight: lighter;
+}
+
+.text {
+  margin: 12px;
+  border: 1px, darkslateblue;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 6px;
+  padding: 8px;
+  background-color: azure;
+  width: 60%;
+}
+
+.text li{
+  list-style-position: outside;
+}
+
+.tech {
+  color: olivedrab;
+}
+
+.projects .text {
+  float: right
+}
+
+.projects img {
+  float: left;
+  width: 30%;
+}
+
+.skills .text{
+  float: left;
+}
+
+.skills img {
+  float: right;
+  width: 30%
+}
