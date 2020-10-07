@@ -7,31 +7,33 @@
   </head>
   <body>
     <div class="container">
-      <div class="panel panel-primary">
-        <!This section contains the heading text & image>
-        <div class="panel-heading">
-        <h1 class="panel-title"><strong>An <em><a href="http://www.epicodus.com">Epicodus</a></em> Portfolio Site</strong></h1>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="panel-heading">
-              <h2 class="panel-title">Julia Seidman</h2>
-              <h2 class="panel-title">Spring 2020</h2>
-            </div>
-            <div class="panel-body">
-              <p>This page contains an archive of projects I created while learning basic web development.  I may or may not have employed sorcery along the way.</p>
-            </di
+      <div class="row">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h1 class="panel-title"><strong>An <em><a href="http://www.epicodus.com">Epicodus</a></em> Portfolio Site</strong></h1>
           </div>
-          <div class="col-md-3">
-            <!Empty column to allow right alignment of photo within bootstrap panel>
-          </div>   
-          <div class="col-md-3">
-            <div class="panel-body">
-              <img src="20191031_202630.jpg" alt="Creator as a witch" height="200px">
-            </div>   
-            </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="panel-heading">
+            <h2 class="panel-title">Julia Seidman</h2>
+            <h2 class="panel-title">Spring-Summer 2020</h2>
+          </div>
+          <div class="panel-body">
+            <p>An archive of projects created while I learned web development at Epicodus.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <!Empty column to allow right alignment of photo within bootstrap panel>
+        </div>   
+        <div class="col-md-3">
+          <div class="panel-body">
+            <img src="20191031_202630.jpg" alt="Creator as a witch" height="200px">
+          </div>   
+        </div>
+      </div>
+
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h1 class="panel-title"><strong>About Me</strong></h1>
@@ -53,18 +55,16 @@
           </div>
           <div class="col-md-4">
             <div class="panel-heading">
-              <h2 class="panel-title">My Favorite Ways to Go</h2>
-              <h3 class="panel-title">Hobbies</h3>
+              <h2 class="panel-title">How I Like To Go</h2>
+              <h3 class="panel-title">Some of My Hobbies</h3>
             </div>
             <div class="panel-body">
-              <ol>
+              <ul>
                 <li>Downhill Skiing</li>
-                <li>Sailing</li>
-                <li>Standup Paddleboarding</li>
-                <li>Hiking</li>
-                <li>By Imagination (Arts & Crafts)</li>
-                <li>Running</li>
-              </ol>
+                <li>Sailing & Paddleboarding</li>
+                <li>Hiking & Running</li>
+                <li>Journeys of the Mind (reading & painting)</li>
+              </ul>
             </div>
           </div>
           <div class="col-md-4">
@@ -73,7 +73,7 @@
               <h3 class="panel-title">Career Goals</h3>
             </div>
             <div class="panel-body">
-              <p>I see software development as a skill set that will allow me to unite my diverse skill set and interests, and enable me to serve the people and organizations I care about in a valuable way.  I hope to create tools to bring people together to build a better world.  I believe I have a background that is especially well-suited to work in global health and development, education resources, program evaluation, or community outreach.</p>
+              <p>Software development unites my diverse skill set and interests, and enables me to serve the people and organizations I care about in a valuable way.  I enjoy creating tools to bring people together to build a better world.  My background and interests are well-suited to work in education technology, program evaluation, community outreach, and many other fields.</p>
               </ol>
             </div>
           </div>
@@ -87,17 +87,17 @@
         <div class="text">
           <h4>My Projects:</h4>
             <ul>
-              <li><a href="https://github.com/juliaseid/vacation_place"> Lake Wenatchee Vacations:</a>
-                <p>A tourism website for the Lake Wenatchee area, including options for vacation packages. The site uses <span class="tech">HTML with Bootstrap and a custom style sheet.</span></p>
+              <li><a href="https://yourvillage.link"> YourVillage</a>
+                <p>My Epicodus capstone project. The site uses <span class="tech">.Net/Entity Framework Core,</span> and is built as a <span class="tech">C# MVC app</span> with a <span class="tech">mySQL database</span>.  The site is a communications platform for families and caregivers, using <span class="tech">claims-based authorization</span> to allow a user to create a secure Family profile with read-write access and then share read-only access with selected Caregivers, while also having Caregiver access to other authorized Family profiles.  <span class="tech">Cloud-hosted with DigitalOcean</span>, utilizing an <span class="tech">Ubuntu server and Caddy reverse-proxy server.</span></p>
               </li>
-              <li><a href="https://github.com/juliaseid/week-in-review"> A Review of Week 1 at Epicodus:</a>
-                <p>An outline of the first-week curriculum at Epicodus. The site uses <span class="tech">HTML with Bootstrap</span> for formatting.</p>
+              <li><a href="https://github.com/juliaseid/earthlyremedies"> Earthly Remedies:</a>
+                <p>An <span class="tech">API</span> created in <span class="tech">C#</span>, consumed by a <span class="tech">React</span> front end application. A database of user-generated traditional, natural and homeopathic remedies.</p>
               </li>
-              <li><a href="https://github.com/juliaseid/seattledesign">Seattle Design:</a>
-                <p>A homepage for an interior design business, using <span class="tech">HTML with a custom CSS style sheet</span> to create Before/During/After photo display.</p>
+              <li><a href="https://github.com/juliaseid/endangeredanimals"></a> Endangered Animals Education Site:
+                <p>An education site consuming the IUCN RedList <span class="tech">API</span>, a huge API that required <span class="tech">call cacheing and optimization</span> in order to make the front end responsive.  Front end uses <span class="tech">C# and JavaScript</span> to handle <span class="tech">SVG files</span> and <span class="tech">custom CSS styling.</span></p>
               </li>
-              <li><a href="https://github.com/juliaseid/forager">Forager:</a>
-                <p>A website for the gimick band Forager, modeled on Foreigner, and styled in 80s awfulness using <span class="tech">HTML and a custom CSS style sheet.</span></p>
+              <li><a href="https://github.com/juliaseid/covid-19"></a>COVID Tracker Maps:
+                <p>A <span class="tech">UI/UX</span>-focused project in <span class="tech">JavaScript</span> consuming a major COVID-19 data API, as well as the US Census API.  Data is displayed using <span class="tech">Leaflet.js</span> and <span class="tech">Canvas.js</span>.  Please note that the project was created in April 2020, and does not reflect changes in the way COVID-19 data has been reported and interpreted since then.</p>
               </li>
             </ul>
         </div>
@@ -107,12 +107,16 @@
         <div class="text">
           <h4>My Skills:</h4>
             <ul>
-              <li>HTML, CSS, Git & Bootstrap</li>
+              <li>HTML, CSS, Bootstrap & Reactstrap</li>
+              <li>C#/ASP.Net Core, Entity Framework Core, Identity</li>
+              <li>JavaScript, React.js, React/Redux</li>
+              <li>mySQL, FireBase, Postman</li>
+              <li>Git, DigitalOcean, Ubuntu, nginx, Caddy, Heroku</li>
               <li>Python & Statistical Modeling</li>
-              <li>Investment Portfolio Reconciliation & Reporting</li>
-              <li>Portfolio Modeling</li>
+              <li>Investment Portfolio Modeling & Reporting</li>
               <li>Instructional Design</li>
               <li>Accessibility Design</li>
+              <li>Writing & Editing</li>
             </ul>
         </div>
         <img src="https://miro.medium.com/max/2000/0*DyMh6x1yk539SzjG" alt="Coiled green python">
